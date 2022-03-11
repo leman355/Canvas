@@ -1,0 +1,1210 @@
+@media (max-width: 576px) {
+    .header {
+        .top-header {
+            position: relative;
+            width: 100%;
+            .top-left {
+                width: 100%;
+                position: absolute;
+                left: 85%;
+                top: 0%;
+                transform: translateX(-50%);
+            }
+            .top-right {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 25px;
+                padding-bottom: 120px;
+                ul {
+                    li {
+                        &:first-child {
+                            width: 100%;
+                            position: absolute;
+                            top: 65%;
+                            left: 110%;
+                            transform: translate(-100%, -100%);
+                        }
+                        .tra2 {
+                            width: 100%;
+                            position: absolute;
+                            top: 90%;
+                            left: 95%;
+                            transform: translate(-90%, -85%);
+                        }
+                        &:last-child {
+                            width: 100%;
+                            position: absolute;
+                            top: 60%;
+                            left: 60%;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-header {
+            width: 100%;
+            .bars {
+                display: block;
+                width: 30%;
+            }
+            .logo {
+                width: 50%;
+                margin: auto;
+            }
+            .home {
+                display: none;
+            }
+            .logo-right {
+                display: none;
+            }
+            .logo-res-right {
+                display: block;
+            }
+        }
+    }
+    .best {
+        .way {
+            .way-save {
+                h1 {
+                    font-size: 3rem;
+                }
+                .way-ul {
+                    display: block;
+                }
+            }
+        }
+    }
+    .ratings {
+        width: 100%;
+        .ratings5 {
+            .nums {
+                width: 100%;
+                margin-left: 40%;
+            }
+            .what {
+                width: 100%;
+                h5 {
+                    font-size: 1.5rem;
+                }
+            }
+            .benjamin {
+                margin-top: 30px;
+                width: 100%;
+                p {
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+    .beware {
+        .top-beware {
+            h1 {
+                width: 100%;
+                font-weight: bold;
+            }
+            hr {
+                margin: auto;
+                color: white;
+                padding: 1px 20px;
+                width: 30px;
+                border-radius: 2mm;
+            }
+        }
+        .boxes {
+            display: flex;
+            .box4 {
+                height: 320px;
+                border: 1px solid yellow;
+                .back-image {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 1;
+                    .overlay {
+                        height: 100%;
+                        opacity: 1;
+                    }
+                }
+                .box3 {
+                    position: absolute;
+                    width: 90%;
+                    top: 10%;
+                    left: 7%;
+                    h5 {
+                        font-size: 1.7rem;
+                    }
+                    .read {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .stocks {
+        .trades {
+            width: 100%;
+            .st-tr-1 {
+                width: 100%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+            .st-tr-2 {
+                width: 100%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+        .calendar {
+            width: 50%;
+        }
+    }
+    .contact {
+        .contactUs {
+            width: 100%;
+            .contact-us {
+                width: 80%;
+                padding-bottom: 50px;
+                .contact-us-left {
+                    margin-bottom: 50px;
+                    padding-top: 40px;
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                    h5 {
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        line-height: 35px;
+                    }
+                    ul {
+                        li {
+                            a {
+                                font-size: 17px;
+                                i {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact-us-right {
+                    margin: 0;
+                    width: 450px;
+                    height: 500px;
+                    p {
+                        font-size: 16px;
+                    }
+                    .aaa {
+                        width: 55%;
+                        padding: 5px 20px;
+                        i {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .testimonials {
+        .our {
+            width: 95%;
+            margin: auto;
+            .client-top {
+                h1 {
+                    width: 100%;
+                    font-weight: bold;
+                }
+            }
+            .our-boxes{
+                .most-box{
+                    margin-bottom: 50px;
+                }
+                h5{
+                    margin: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .grow{
+        margin-top: 70px;
+        // width: 100%;
+        .business{
+            .final-box{
+                padding: 50px 0 20px 40px;
+                h1{
+                    font-size: 2rem;
+                }
+            }
+            .cal-env{
+                margin: 20px 0px 30px 45px;
+                .calendar{
+                    width: 40%;
+                }
+                .envelope{
+                    width: 31%;
+                }
+            }
+        }
+    }
+    .footer{
+        .f-canvas{
+            width: 95%;
+            .f-logo{
+                width: 100%;
+            }
+            .f-m{
+                margin-top: 50px;
+                width: 100%;
+                .f-h-a{
+                    margin: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .header {
+        .top-header {
+            position: relative;
+            width: 100%;
+            .top-left {
+                width: 100%;
+                position: absolute;
+                left: 85%;
+                top: 0%;
+                transform: translateX(-50%);
+            }
+            .top-right {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 25px;
+                padding-bottom: 120px;
+                ul {
+                    li {
+                        &:first-child {
+                            width: 100%;
+                            position: absolute;
+                            top: 65%;
+                            left: 110%;
+                            transform: translate(-100%, -100%);
+                        }
+                        .tra2 {
+                            width: 100%;
+                            position: absolute;
+                            top: 90%;
+                            left: 95%;
+                            transform: translate(-90%, -85%);
+                        }
+                        &:last-child {
+                            width: 100%;
+                            position: absolute;
+                            top: 60%;
+                            left: 60%;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-header {
+            width: 100%;
+            .bars {
+                display: block;
+                width: 30%;
+            }
+            .logo {
+                width: 50%;
+                margin: auto;
+            }
+            .home {
+                display: none;
+            }
+            .logo-right {
+                display: none;
+            }
+            .logo-res-right {
+                display: block;
+            }
+        }
+    }
+    .best {
+        .way {
+            .way-save {
+                h1 {
+                    font-size: 3rem;
+                }
+                .way-ul {
+                    display: block;
+                }
+            }
+        }
+    }
+    .ratings {
+        width: 100%;
+        .ratings5 {
+            .nums {
+                width: 100%;
+                margin-left: 40%;
+            }
+            .what {
+                width: 100%;
+                h5 {
+                    font-size: 1.5rem;
+                }
+            }
+            .benjamin {
+                margin-top: 30px;
+                width: 100%;
+                p {
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+    .beware {
+        .top-beware {
+            h1 {
+                width: 100%;
+                font-weight: bold;
+            }
+            hr {
+                margin: auto;
+                color: white;
+                padding: 1px 20px;
+                width: 30px;
+                border-radius: 2mm;
+            }
+        }
+        .boxes {
+            display: flex;
+            .box4 {
+                height: 320px;
+                border: 1px solid yellow;
+                .back-image {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 1;
+                    .overlay {
+                        height: 100%;
+                        opacity: 1;
+                    }
+                }
+                .box3 {
+                    position: absolute;
+                    width: 90%;
+                    top: 10%;
+                    left: 7%;
+                    h5 {
+                        font-size: 1.7rem;
+                    }
+                    .read {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .stocks {
+        .trades {
+            width: 100%;
+            .st-tr-1 {
+                width: 100%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+            .st-tr-2 {
+                width: 100%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+        .calendar {
+            width: 50%;
+        }
+    }
+    .contact {
+        .contactUs {
+            width: 100%;
+            .contact-us {
+                width: 80%;
+                padding-bottom: 50px;
+                .contact-us-left {
+                    margin-bottom: 50px;
+                    padding-top: 40px;
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                    h5 {
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        line-height: 35px;
+                    }
+                    ul {
+                        li {
+                            a {
+                                font-size: 17px;
+                                i {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact-us-right {
+                    margin: 0;
+                    width: 450px;
+                    height: 500px;
+                    p {
+                        font-size: 16px;
+                    }
+                    .aaa {
+                        width: 55%;
+                        padding: 5px 20px;
+                        i {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .testimonials {
+        .our {
+            width: 95%;
+            margin: auto;
+            .client-top {
+                h1 {
+                    width: 100%;
+                    font-weight: bold;
+                }
+            }
+            .our-boxes{
+                .most-box{
+                    margin-bottom: 50px;
+                }
+                h5{
+                    margin: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .grow{
+        margin-top: 70px;
+        // width: 100%;
+        .business{
+            .final-box{
+                padding: 50px 0 20px 40px;
+                h1{
+                    font-size: 2rem;
+                }
+            }
+            .cal-env{
+                margin: 20px 0px 30px 45px;
+                .calendar{
+                    width: 40%;
+                }
+                .envelope{
+                    width: 31%;
+                }
+            }
+        }
+    }
+    .footer{
+        .f-canvas{
+            width: 95%;
+            .f-logo{
+                width: 100%;
+            }
+            .f-m{
+                margin-top: 50px;
+                width: 100%;
+                .f-h-a{
+                    margin: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .header {
+        .top-header {
+            position: relative;
+            width: 100%;
+            .top-left {
+                width: 100%;
+                position: absolute;
+                left: 85%;
+                top: 0%;
+                transform: translateX(-50%);
+            }
+            .top-right {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 25px;
+                padding-bottom: 120px;
+                ul {
+                    li {
+                        &:first-child {
+                            width: 100%;
+                            position: absolute;
+                            top: 65%;
+                            left: 110%;
+                            transform: translate(-100%, -100%);
+                        }
+                        .tra2 {
+                            width: 100%;
+                            position: absolute;
+                            top: 65%;
+                            left: 160%;
+                            transform: translate(-100%, -100%);
+                        }
+                        &:last-child {
+                            width: 100%;
+                            position: absolute;
+                            top: 63%;
+                            left: 35%;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-header {
+            width: 100%;
+            .bars {
+                display: block;
+                width: 30%;
+            }
+            .logo {
+                width: 50%;
+                margin: auto;
+            }
+            .home {
+                display: none;
+            }
+            .logo-right {
+                width: 35%;
+                padding: 0px 0px;
+                // display: none;
+            }
+        }
+    }
+    .best {
+        .way {
+            .way-save {
+                h1 {
+                    font-size: 3rem;
+                }
+                .way-ul {
+                    ul{
+                        li{
+                            margin: 0 170px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ratings {
+        width: 95%;
+    }
+    .beware {
+        .top-beware {
+            h1 {
+                width: 100%;
+                font-weight: bold;
+            }
+            hr {
+                margin: auto;
+                color: white;
+                padding: 1px 20px;
+                width: 30px;
+                border-radius: 2mm;
+            }
+        }
+        .boxes {
+            display: flex;
+            .box4 {
+                border: 1px solid yellow;
+                .back-image {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 1;
+                    .overlay {
+                        height: 100%;
+                        opacity: 1;
+                    }
+                }
+                .box3 {
+                    position: absolute;
+                    top: 10%;
+                    left: 7%;
+                    h5 {
+                        font-size: 1.7rem;
+                    }
+                    .read {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .stocks {
+        .trades {
+            width: 80%;
+            .st-tr-1 {
+                width: 50%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+            .st-tr-2 {
+                width: 50%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+        .calendar {
+            width: 30%;
+        }
+    }
+    .contact {
+        .contactUs {
+            width: 80%;
+            .contact-us {
+                width: 85%;
+                padding-bottom: 50px;
+                .contact-us-left {
+                    margin-bottom: 50px;
+                    padding-top: 40px;
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                    h5 {
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        line-height: 35px;
+                    }
+                    ul {
+                        li {
+                            a {
+                                font-size: 17px;
+                                i {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact-us-right {
+                    margin: 0;
+                    width: 650px;
+                    height: 500px;
+                    p {
+                        font-size: 16px;
+                    }
+                    .aaa {
+                        width: 35%;
+                        padding: 5px 10px;
+                        i {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .testimonials {
+        .our {
+            width: 80%;
+            margin: auto;
+            .client-top {
+                h1 {
+                    width: 100%;
+                    font-weight: bold;
+                }
+            }
+            .our-boxes{
+                .most-box{
+                    margin-bottom: 50px;
+                }
+                h5{
+                    margin: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .grow{
+        margin-top: 70px;
+        .business{
+            padding: 50px;
+            border-radius: 2mm;
+            .final-box{
+                padding: 50px 0 20px 40px;
+                h1{
+                    font-size: 2.5rem;
+                }
+            }
+            .cal-env{
+                margin: 20px 0px 30px 45px;
+                .calendar{
+                    width: 40%;
+                }
+                .envelope{
+                    width: 31%;
+                }
+            }
+        }
+    }
+    .footer{
+        .f-canvas{
+            .f-logo{
+                width: 85%;
+                margin: auto;
+            }
+            .f-m{
+                margin-top: 50px;
+                width: 100%;
+                .f-h-a{
+                    margin: 60px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header {
+        .top-header {
+            position: relative;
+            width: 100%;
+            .top-left {
+                width: 100%;
+                position: absolute;
+                left: 59%;
+                top: 0%;
+                transform: translateX(-50%);
+            }
+            .top-right {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 25px;
+                padding-bottom: 90px;
+                ul {
+                    li {
+                        &:first-child {
+                            width: 100%;
+                            position: absolute;
+                            top: 87%;
+                            left: 110%;
+                            transform: translate(-100%, -100%);
+                        }
+                        .tra2 {
+                            width: 100%;
+                            position: absolute;
+                            top: 87%;
+                            left: 155%;
+                            transform: translate(-100%, -100%);
+                        }
+                        &:last-child {
+                            width: 100%;
+                            position: absolute;
+                            top: 87%;
+                            left: 175%;
+                            transform: translate(-100%, -100%);
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-header {
+            width: 100%;
+            .logo {
+                width: 20%;
+                margin: auto;
+            }
+            .home {
+                width: 70%;
+            }
+            .logo-right {
+                width: 25%;
+                padding: 0px 0px;
+            }
+        }
+    }
+    .best {
+        .way {
+            padding-bottom: 50px;
+            .way-save {
+                h1 {
+                    font-size: 3rem;
+                }
+                .way-ul {
+                    ul{
+                        li{
+                            margin: 0 50px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ratings {
+        width: 85%;
+    }
+    .beware {
+        .top-beware {
+            h1 {
+                width: 100%;
+                font-weight: bold;
+            }
+            hr {
+                margin: auto;
+                color: white;
+                padding: 1px 20px;
+                width: 30px;
+                border-radius: 2mm;
+            }
+        }
+        .boxes {
+            display: flex;
+            .box4 {
+                .back-image {
+                    width: 100%;
+                    height: 100%;
+                    .overlay {
+                        height: 100%;
+                        opacity: 1;
+                    }
+                }
+                .box3 {
+                    position: absolute;
+                    top: 10%;
+                    left: 7%;
+                    h5 {
+                        font-size: 1.7rem;
+                    }
+
+                }
+            }
+        }
+    }
+    .stocks {
+        .trades {
+            width: 80%;
+            .st-tr-1 {
+                width: 50%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+            .st-tr-2 {
+                width: 50%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+        .calendar {
+            width: 30%;
+        }
+    }
+    .contact {
+        .contactUs {
+            width: 80%;
+            .contact-us {
+                width: 85%;
+                padding-bottom: 50px;
+                .contact-us-left {
+                    margin-bottom: 50px;
+                    padding-top: 40px;
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                    h5 {
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        line-height: 35px;
+                    }
+                    ul {
+                        li {
+                            a {
+                                font-size: 17px;
+                                i {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact-us-right {
+                    margin-top: 30px;
+                    width: 370px;
+                    height: 500px;
+                    p {
+                        font-size: 16px;
+                    }
+                    .aaa {
+                        width: 70%;
+                        padding: 5px 10px;
+                        i {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .testimonials {
+        .our {
+            width: 80%;
+            margin: auto;
+            .client-top {
+                h1 {
+                    width: 100%;
+                    font-weight: bold;
+                }
+            }
+            .our-boxes{
+                .most-box{
+                    margin-bottom: 50px;
+                }
+                h5{
+                    margin: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .grow{
+        margin-top: 70px;
+        .business{
+            border-radius: 2mm;
+            .final-box{
+                padding: 50px 0 20px 40px;
+                h1{
+                    font-size: 2.5rem;
+                }
+            }
+            .cal-env{
+                margin: 20px 0px 30px 45px;
+                .calendar{
+                    width: 49%;
+                }
+                .envelope{
+                    width: 49%;
+                }
+            }
+        }
+    }
+    .footer{
+        .f-canvas{
+            .f-logo{
+                width: 85%;
+                margin: auto;
+            }
+            .f-m{
+                margin-top: 50px;
+                width: 100%;
+                .f-h-a{
+                    margin: 60px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .header {
+        .bottom-header {
+            width: 100%;
+            .logo {
+                width: 20%;
+                margin: auto;
+            }
+            .home {
+                width: 70%;
+            }
+            .logo-right {
+                width: 20%;
+                padding: 0px 0px;
+            }
+        }
+    }
+    .best {
+        .way {
+            padding-bottom: 50px;
+            .way-save {
+                .way-ul {
+                    ul{
+                        li{
+                            margin: 0 50px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ratings {
+        width: 85%;
+    }
+    .beware {
+        .top-beware {
+            h1 {
+                width: 100%;
+                font-weight: bold;
+            }
+            hr {
+                margin: auto;
+                color: white;
+                padding: 1px 20px;
+                width: 30px;
+                border-radius: 2mm;
+            }
+        }
+        .boxes {
+            display: flex;
+            .box4 {
+                .back-image {
+                    width: 100%;
+                    height: 100%;
+                    .overlay {
+                        height: 100%;
+                        opacity: 1;
+                    }
+                }
+                .box3 {
+                    position: absolute;
+                    bottom: 10%;
+                    left: 7%;
+                    h5 {
+                        font-size: 1.7rem;
+                    }
+
+                }
+            }
+        }
+    }
+    .stocks {
+        .trades {
+            width: 80%;
+            .st-tr-1 {
+                width: 50%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+            .st-tr-2 {
+                width: 50%;
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+        .calendar {
+            width: 20%;
+        }
+    }
+    .contact {
+        .contactUs {
+            width: 80%;
+            .contact-us {
+                width: 85%;
+                padding-bottom: 50px;
+                .contact-us-left {
+                    margin-bottom: 50px;
+                    padding-top: 40px;
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                    h5 {
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        line-height: 35px;
+                    }
+                    ul {
+                        li {
+                            a {
+                                font-size: 17px;
+                                i {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contact-us-right {
+                    margin-top: 30px;
+                    width: 370px;
+                    height: 500px;
+                    p {
+                        font-size: 16px;
+                    }
+                    .aaa {
+                        width: 70%;
+                        padding: 5px 10px;
+                        i {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .testimonials {
+        .our {
+            width: 80%;
+            margin: auto;
+            .client-top {
+                h1 {
+                    width: 100%;
+                    font-weight: bold;
+                }
+            }
+            .our-boxes{
+                .most-box{
+                    margin-bottom: 50px;
+                }
+                h5{
+                    margin: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .grow{
+        margin-top: 70px;
+        .business{
+            border-radius: 2mm;
+            .final-box{
+                padding: 50px 0 50px 40px;
+                h1{
+                    font-size: 2.5rem;
+                }
+            }
+            .cal-env{
+                margin: 80px 0 20px 100px;
+                .calendar{
+                    width: 37%;
+                }
+                .envelope{
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
